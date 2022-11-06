@@ -25,7 +25,7 @@ document.querySelector("body").appendChild(box);
 
 rButton.textContent="Reset";
 rButton.addEventListener("click", () => { 
-    createGrid(prompt("how many rows and colums should your grid have?"));})
+    createGrid(prompt("how many rows and columns should your grid have?"));})
 body.appendChild(rButton);
 
 // functions-----------------------------------------------------
